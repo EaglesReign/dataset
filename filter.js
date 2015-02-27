@@ -15,5 +15,5 @@ function filter(array, test) {
 }
 
 print(JSON.stringify(filter(league, function(champion) {
-  return champion.Primary = "Fighter" && champion.Attack > 7;
+  return champion.Attack > 0 && champion.Attack < 3;
 })));
