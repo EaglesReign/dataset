@@ -19,7 +19,7 @@ var LEAGUE = "[\n  " + [
   '{"Name":"Blitzcrank", "Primary":"Tank","Secondary":"Fighter", "Attack":"4", "Defense":"8", "Ability":"5"}',
   '{"Name":"Brand", "Primary":"Mage", "Secondary":null, "Attack":"2", "Defense":"3", "Ability":"9"}',
   '{"Name":"Braum", "Primary":"Support", "Secondary":"Tank", "Attack":"3", "Defense":"9", "Ability":"4"}',
-  '{"Name":"Caitlyn", "Primary":"Marksman", "Secondary":null, "Attack":"8", "Defene":"2", "Ability":"2"}',
+  '{"Name":"Caitlyn", "Primary":"Marksman", "Secondary":null, "Attack":"8", "Defense":"2", "Ability":"2"}',
   '{"Name":"Cassiopeia", "Primary":"Mage", "Secondary":null, "Attack":"2", "Defense":"3", "Ability":"9"}',
   '{"Name":"ChoGath", "Primary":"Tank", "Secondary":"Mage", "Attack":"3", "Defense":"7", "Ability":"7"}',
   '{"Name":"Corki", "Primary":"Marksman", "Secondary":null, "Attack":"8", "Defense":"3", "Ability":"6"}',
@@ -31,9 +31,10 @@ var LEAGUE = "[\n  " + [
   '{"Name":"Evelynn", "Primary":"Assassin", "Secondary":"Mage", "Attack":"4", "Defense":"2", "Ability":"7"}',
   '{"Name":"Ezreal", "Primary":"Marksman", "Secondary":"Mage", "Attack":"7", "Defense":"2", "Ability":"6"}',
   '{"Name":"Fiddlesticks", "Primary":"Mage", "Secondary":"Support", "Attack":"2", "Defense":"3", "Ability":"9"}',
-  '{"Name":"Fiora", "Primary":"Fighter", "Secondary":"Assassin", "Attack":"10", "Defense":"4", "Ability", "2"}'
+  '{"Name":"Fiora", "Primary":"Fighter", "Secondary":"Assassin", "Attack":"10", "Defense":"4", "Ability": "2"}'
 ].join(",\n  ") + "\n]";
 
 //Makes sure the data is exported in node
 if (typeof module != "undefined" && module.exports)
   module.exports = LEAGUE;
+  
